@@ -23,9 +23,7 @@ export default function ThemesPage() {
     <div className="container">
       <ThemeWrapper
         defaultTheme="zinc"
-        className={cn(
-          "relative flex flex-col items-start md:flex-row md:items-center"
-        )}
+        className="relative flex flex-col items-start md:flex-row md:items-center"
       >
         <PageHeader className="relative pb-4 md:pb-8 lg:pb-12">
           <PageHeaderHeading>Customize seu tema.</PageHeaderHeading>
@@ -39,3 +37,4 @@ export default function ThemesPage() {
     </div>
   )
 }
+ß
